@@ -1,0 +1,76 @@
+{
+  "benchmark_validators": [
+    {
+      "id": "val_jito_01",
+      "name": "Overclock",
+      "client": "Jito-Solana",
+      "software_version": "4.3.2",
+      "vote_account": "AS3nKBQfKs8fJ8ncyHrdvo4FDT6S8HMRhD75JjCcyr1t",
+      "node_pubkey": "C1ocKDYMCm2ooWptMMnpd5VEB2Nx4UMJgRuYofysyzcA",
+      "stake_sol": 1004689.99,
+      "tpu_quic_enabled": true,
+      "scheduler_architecture": "Central Scheduler with Jito Bundle Engine overlay"
+    },
+    {
+      "id": "val_jito_02",
+      "name": "Rakurai | High TPS",
+      "client": "Jito-Solana",
+      "software_version": "4.3.2",
+      "vote_account": "4YykTGwg94GgHZEPSsQfbaMaEE9HHAHqSuXT65L6C6wf",
+      "node_pubkey": "Ed9WjPnZfAXsPttcqxMwj94qsuXVRyBsyXnDkxFva2Zv",
+      "stake_sol": 209932.58,
+      "tpu_quic_enabled": true,
+      "scheduler_architecture": "Central Scheduler with Jito Bundle Engine overlay"
+    },
+    {
+      "id": "val_franken_01",
+      "name": "gripto",
+      "client": "Frankendancer (Jump Crypto)",
+      "software_version": "26.10.4",
+      "vote_account": "mnvkHm47ZmRKoSWuQZAfXLRiDPiKCq8PWkMWrp1Wwqe",
+      "node_pubkey": "grptonHnt7YSmJokGK9TJJTBXDT8ca4LSWMHCCfzzPa",
+      "stake_sol": 278086.31,
+      "tpu_quic_enabled": true,
+      "scheduler_architecture": "fd_quic + fd_pack ingress tile with Agave banking stage"
+    },
+    {
+      "id": "val_franken_02",
+      "name": "Puffin",
+      "client": "Frankendancer (Jump Crypto)",
+      "software_version": "26.10.4",
+      "vote_account": "PUFFiNkUHF2DMfbKeUcYTSQckDDtkswfxZCDv5WQqwp",
+      "node_pubkey": "puffinQSvKFriPbyE5atyx1ptfnyytovbzxybr1jsyy",
+      "stake_sol": 205204.99,
+      "tpu_quic_enabled": true,
+      "scheduler_architecture": "fd_quic + fd_pack ingress tile with Agave banking stage"
+    },
+    {
+      "id": "val_agave_01",
+      "name": "SolStack by Corvus Labs",
+      "client": "Agave Canary / NextGen",
+      "software_version": "4.5.0",
+      "vote_account": "soLStAckuvkHtNzHF1cwmeSRG1FzVxKxwsdWZ1yrHrz",
+      "node_pubkey": "soLStaCk5TiGCpeLKa9Fvv6f5JQGMa6S3uhLh826e9N",
+      "stake_sol": 259178.58,
+      "tpu_quic_enabled": true,
+      "scheduler_architecture": "Anza Agave Central Scheduler (Prio-Graph Lock DAG)"
+    },
+    {
+      "id": "val_firedancer_01",
+      "name": "Firedancer Native Node",
+      "client": "Firedancer Native",
+      "software_version": "0.1.1",
+      "vote_account": "AF84u2vQvSyuSurDqJNSgLGKA8viTrHmeYwjKzisC6w1",
+      "node_pubkey": "AHZxzLeRGRfNVFrCmP58iJgEwbcXyZeAkZ32CmbfEmYR",
+      "stake_sol": 299998.99,
+      "tpu_quic_enabled": true,
+      "scheduler_architecture": "Pure C Firedancer tile-based packet scheduler"
+    }
+  ],
+  "alpenglow_upgrade_date": "2026-10-21T00:00:00Z",
+  "measurement_period": {
+    "start": "2026-10-22T00:00:00Z",
+    "end": "2026-10-25T23:59:59Z",
+    "protocol_epoch": 692
+  }
+}

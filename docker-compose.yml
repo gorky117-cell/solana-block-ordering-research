@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  solana-researcher:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: solana-block-ordering-research
+    environment:
+      - SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
+      - MAX_SPEND_CAP_SOL=0.05
+    volumes:
+      - ./data/raw_measurements:/app/data/raw_measurements
+      - ./REPORT.md:/app/REPORT.md
+    command: ["--benchmark-all", "--generate-report"]
